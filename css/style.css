@@ -1,0 +1,63 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+body {
+	background: url('../images/back.jpg');
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: #C8CBD0;
+	width: 900px;
+	color: black;
+	margin:0 auto 0 auto;
+}
+
+#main{
+	width: 600px;
+	float: left;
+}
+h1 {
+	font-size: 80px;
+	
+}
+
+h2 {
+	background: #464950;
+	color: white;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+a {
+	color: #75c1f6;
+	text-decoration: none;
+}
+
+#sidebar{
+	background: white;
+	float: right;
+	width: 200px;
+	padding: 13px;
+}
+#sidebar{
+	border-radius: 50px;
+}
+#footer{
+   width: 1000px;
+ 
+   float: left;
+}
+.orange{
+     color: #2A7ADB;
+}
+
